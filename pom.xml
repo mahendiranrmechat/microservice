@@ -44,7 +44,14 @@
 	<build>
 		<plugins>
         <!-- Spring Boot Plugin -->
+
         <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+
+
+<!--         <plugin>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-maven-plugin</artifactId>
             <configuration>
@@ -53,7 +60,7 @@
                     <builder>paketobuildpacks/builder-jammy-base:latest</builder>
                 </image>
             </configuration>
-        </plugin>
+        </plugin> -->
 
         <!-- SonarQube Plugin -->
         <plugin>
