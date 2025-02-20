@@ -1,0 +1,5 @@
+loginMahe\logindemo\ServletInitializer.class
+Model\User.class
+loginMahe\logindemo\controller\AuthController.class
+loginMahe\logindemo\service\LoginService.class
+loginMahe\logindemo\LogindemoApplication.class
