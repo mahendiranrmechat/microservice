@@ -6,14 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("/")
 public class AuthController {
 
     @Autowired
     LoginService loginService;
 
 
-    @GetMapping("login")
+    @GetMapping
     public String loginMethod(){
          
          return loginService.loginMethod();
